@@ -54,8 +54,8 @@ button:hover{
 @media screen and (max-width: 768px){
     .container{
         width: 85%;
-        margin: 5% auto;
-        height: 90vh;
+        margin: 7% auto;
+        height: 85vh;
     }
     .quote{
         width: 95%;
