@@ -32,9 +32,9 @@ body{
     font-size: 1.25rem;
 }
 .author{
-    width: 28%;
+    width: 30%;
     position: absolute;
-    right: 6%;
+    right: 3%;
 }
 button{
     font-weight: 400;
@@ -42,7 +42,7 @@ button{
     height: 3.5rem;
     font-size: 1.5rem;
     position: absolute;
-    right: 8%;
+    right: 4%;
     bottom: 15%;
     border: 0px;
     color: white;
@@ -53,22 +53,28 @@ button:hover{
 }
 @media screen and (max-width: 768px){
     .container{
-        width: 90%;
+        width: 85%;
         margin: 5% auto;
-        height: 80vh;
+        height: 90vh;
     }
     .quote{
-        width: 80%;
-        margin: 5% auto;
+        width: 95%;
+        margin: 5% auto 7%;
     }
     .quote-text, .author-text{
-        font-size: 1.25rem;
+        font-size: 1rem;
+        line-height: 1.75rem;
+        word-spacing: 0.1rem;
+        letter-spacing: 0.1rem;
     }
     .author{
         width: 50%;
     }
     button{
-        width: 42%;
+        width: 40%;
         font-size: 1.25rem;
+        bottom: 5%;
+        right: 5%;
+        height: 2.75rem;
     }
 }
