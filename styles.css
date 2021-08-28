@@ -53,11 +53,12 @@ button:hover{
 }
 @media screen and (max-width: 768px){
     .container{
-        width: 85%;
+        width: 90%;
         margin: 5% auto;
         height: 90vh;
     }
     .quote{
+        width: 80%;
         margin: 5% auto;
     }
     .quote-text, .author-text{
@@ -68,5 +69,6 @@ button:hover{
     }
     button{
         width: 42%;
+        font-size: 1.25rem;
     }
 }
