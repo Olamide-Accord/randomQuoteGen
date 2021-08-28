@@ -34,7 +34,7 @@ body{
 .author{
     width: 28%;
     position: absolute;
-    right: 3%;
+    right: 6%;
 }
 button{
     font-weight: 400;
@@ -42,7 +42,7 @@ button{
     height: 3.5rem;
     font-size: 1.5rem;
     position: absolute;
-    right: 5%;
+    right: 8%;
     bottom: 15%;
     border: 0px;
     color: white;
@@ -55,7 +55,7 @@ button:hover{
     .container{
         width: 90%;
         margin: 5% auto;
-        height: 90vh;
+        height: 80vh;
     }
     .quote{
         width: 80%;
