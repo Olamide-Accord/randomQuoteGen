@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Raleway', sans-serif;
+}
+.container{
+    width: 75%;
+    margin: 3% auto;
+    height: 80vh;
+    background-color: white;
+    position: relative;
+}
+.quote{
+    width: 90%;
+    margin: 6% auto 3%;
+    padding-top: 4rem;
+}
+.quote-text{
+    font-size: 1.5rem;
+}
+.quote-text, .author-text{
+    line-height: 2.25rem;
+    word-spacing: 0.2rem;
+    letter-spacing: 0.1rem;
+    text-align: center;
+}
+.author-text{
+    font-size: 1.25rem;
+}
+.author{
+    width: 28%;
+    position: absolute;
+    right: 3%;
+}
+button{
+    font-weight: 400;
+    width: 25%;
+    height: 3.5rem;
+    font-size: 1.5rem;
+    position: absolute;
+    right: 5%;
+    bottom: 15%;
+    border: 0px;
+    color: white;
+    border: 0px;
+}
+button:hover{
+    box-shadow: 0 0px 20px 0 rgba(0,0,0, 0.3);
+}
+@media screen and (max-width: 768px){
+    .container{
+        width: 90%;
+        margin: 3% auto;
+        height: 90vh;
+    }
+    .quote{
+        margin: 5% auto;
+    }
+    .quote-text, .author-text{
+        font-size: 1.25rem;
+    }
+    .author{
+        width: 50%;
+    }
+    button{
+        width: 42%;
+    }
+}
